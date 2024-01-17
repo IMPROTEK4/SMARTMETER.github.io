@@ -111,24 +111,37 @@ function onMessageArrived(message) {
       document.getElementById('box_cus_usage3').value = values[15] || '';
     }
 
-    // Total Energy
-    document.getElementById('box_energy').value = Number(values[2])+Number(values[7])+Number(values[12]);
+
+  const Meter1_Electric = document.querySelector('#box_cus_power1').value;
+  const Meter2_Electric = document.querySelector('#box_cus_power2').value;
+  const Meter3_Electric = document.querySelector('#box_cus_power3').value;
+  
+  const Meter1_Water = document.querySelector('#box_cus_usage1').value;
+  const Meter2_Water = document.querySelector('#box_cus_usage2').value;
+  const Meter3_Water = document.querySelector('#box_cus_usage3').value;
+
+  // Total Energy
+  setTimeout(() => {
+    document.getElementById('box_energy').value = parseFloat(Number(Meter1_Electric) + Number(Meter2_Electric) + Number(Meter3_Electric)).toFixed(3);
 
     // Total Water
-    document.getElementById('box_water').value = Number(values[5])+Number(values[10])+Number(values[15]);
-    
-
+    document.getElementById('box_water').value = parseFloat(Number(Meter1_Water) + Number(Meter2_Water) + Number(Meter3_Water)).toFixed(3);
+  }, 1000);
+ 
     // -----------Status---------
 
     // Electrical1
     if (values[0]=='status'&&values[1]=='c1'&&values[2]=='1'){
       electric_status = document.getElementById('electrical1_button');
       electric_status.textContent ='ON';
+      electric_status.style.backgroundColor = 'green';
       electric_status.disabled = false;
     }
     if (values[0]=='status'&&values[1]=='c1'&&values[2]=='0'){
       electric_status = document.getElementById('electrical1_button');
       electric_status.textContent ='OFF';
+      electric_status.style.backgroundColor = 'red';
+      // electric_status.style.box-shadow == 'red';
       electric_status.disabled = false;
     }
     // Water1

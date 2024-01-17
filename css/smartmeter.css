@@ -362,166 +362,53 @@ span{
 .button1{
     margin-top: 35px;
     margin-left: 20px;
-}
-
-.button1 #label_electrical1_button{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    font-weight: 100;
     color: rgb(0, 0, 0);
 }
+
 .button1 #electrical1_button {
-    appearance: button;
-    background-color: #1899D6;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: inline-block;
-    font-family: din-round,sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: .8px;
-    line-height: 20px;
-    margin: 0;
-    outline: none;
-    overflow: visible;
-    padding: 9px 12px;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transform: translateZ(0);
-    transition: filter .2s;
-    user-select: none;
-    -webkit-user-select: none;
-    vertical-align: middle;
-    white-space: nowrap;
-    width: 25%;
-}
-  
-.button1 #electrical1_button:after {
-    background-clip: padding-box;
-    background-color: #1CB0F6;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    bottom: -4px;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-  }
-  
-  .button1 #electrical1_button:main,
-  .button1 #electrical1_button:focus {
-    user-select: auto;
-  }
-  
-  .button1 #electrical1_button:hover:not(:disabled) {
-    filter: brightness(1.1);
-    -webkit-filter: brightness(1.1);
-  }
-  
-  .button1 #electrical1_button:disabled {
-    cursor: auto;
-  }
-  
-  .button1 #electrical1_button:active {
-    border-width: 4px 0 0;
-    background: none;
-}
-
-
-.button1 #label_water1_button{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    margin-left: 10px;
-}
-.button1 #water1_button{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-}
-.button1 #water1_button{
-    margin-left: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: rgb(255, 255, 255); 
-    text-align: center;
-    border: 1.5px black solid;
+    color: #ecf0f1;
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+    background-color: blue;
+    border: 1px solid #ffffff;
     border-radius: 10px;
-    padding: 5px 20px 5px 20px;
-    background-color:green;
+    padding: 2px;
+    margin-left: 10px;
+    margin-right: 15px;
+    box-shadow: 0px 3px 0px aliceblue;
+    transition: all .1s;
 }
+#electrical1_button:active {
+    box-shadow: 0px 2px 0px greenyellow;
+    position: relative;
+    top: 2px;
+}
+
 
 .button1 #water1_button {
-    appearance: button;
-    background-color: #1899D6;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: inline-block;
-    font-family: din-round,sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: .8px;
-    line-height: 20px;
-    margin: 0;
-    outline: none;
-    overflow: visible;
-    padding: 9px 12px;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transform: translateZ(0);
-    transition: filter .2s;
-    user-select: none;
-    -webkit-user-select: none;
-    vertical-align: middle;
-    white-space: nowrap;
-    width: 25%;
-  }
-  
-  .button1 #water1_button:after {
-    background-clip: padding-box;
-    background-color: #1CB0F6;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    bottom: -4px;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-  }
-  
-  .button1 #water1_button:main,
-  .button1 #water1_button:focus {
-    user-select: auto;
-  }
-  
-  .button1 #water1_button:hover:not(:disabled) {
-    filter: brightness(1.1);
-    -webkit-filter: brightness(1.1);
-  }
-  
-  .button1 #water1_button:disabled {
-    cursor: auto;
-  }
-  
-  .button1 #water1_button:active {
-    border-width: 4px 0 0;
-    background: none;
-  }
+    color: #ecf0f1;
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+    background-color: blue;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 2px;
+    margin-left: 10px;
+    box-shadow: 0px 3px 0px aliceblue;
+    transition: all .1s;
+}
+#water1_button:active {
+    box-shadow: 0px 2px 0px greenyellow;
+    position: relative;
+    top: 2px;
+}
+
+
 
 
 
@@ -586,165 +473,51 @@ span{
 .button2{
     margin-top: 35px;
     margin-left: 20px;
-}
-.button2 #label_electrical2_button{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    font-weight: 100;
     color: rgb(0, 0, 0);
 }
+
 .button2 #electrical2_button {
-    appearance: button;
-    background-color: #1899D6;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: inline-block;
-    font-family: din-round,sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: .8px;
-    line-height: 20px;
-    margin: 0;
-    outline: none;
-    overflow: visible;
-    padding: 9px 12px;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transform: translateZ(0);
-    transition: filter .2s;
-    user-select: none;
-    -webkit-user-select: none;
-    vertical-align: middle;
-    white-space: nowrap;
-    width: 25%;
-}
-  
-  .button2 #electrical2_button:after {
-    background-clip: padding-box;
-    background-color: #1CB0F6;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    bottom: -4px;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-  }
-  
-  .button2 #electrical2_button:main,
-  .button2 #electrical2_button:focus {
-    user-select: auto;
-  }
-  
-  .button2 #electrical2_button:hover:not(:disabled) {
-    filter: brightness(1.1);
-    -webkit-filter: brightness(1.1);
-  }
-  
-  .button2 #electrical2_button:disabled {
-    cursor: auto;
-  }
-  
-  .button2 #electrical2_button:active {
-    border-width: 4px 0 0;
-    background: none;
-}
-
-
-.button2 #label_water2_button{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    margin-left: 10px;
-}
-.button2 #water2_button{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-}
-.button2 #water2_button{
-    margin-left: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: rgb(255, 255, 255); 
-    text-align: center;
-    border: 1.5px black solid;
+    color: #ecf0f1;
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+    background-color: blue;
+    border: 1px solid #ffffff;
     border-radius: 10px;
-    padding: 5px 20px 5px 20px;
-    background-color:green;
+    padding: 2px;
+    margin-left: 10px;
+    margin-right: 15px;
+    box-shadow: 0px 3px 0px aliceblue;
+    transition: all .1s;
 }
+#electrical2_button:active {
+    box-shadow: 0px 2px 0px greenyellow;
+    position: relative;
+    top: 2px;
+}
+
 
 .button2 #water2_button {
-    appearance: button;
-    background-color: #1899D6;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: inline-block;
-    font-family: din-round,sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: .8px;
-    line-height: 20px;
-    margin: 0;
-    outline: none;
-    overflow: visible;
-    padding: 9px 12px;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transform: translateZ(0);
-    transition: filter .2s;
-    user-select: none;
-    -webkit-user-select: none;
-    vertical-align: middle;
-    white-space: nowrap;
-    width: 25%;
-  }
-  
-  .button2 #water2_button:after {
-    background-clip: padding-box;
-    background-color: #1CB0F6;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    bottom: -4px;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-  }
-  
-  .button2 #water2_button:main,
-  .button2 #water2_button:focus {
-    user-select: auto;
-  }
-  
-  .button2 #water2_button:hover:not(:disabled) {
-    filter: brightness(1.1);
-    -webkit-filter: brightness(1.1);
-  }
-  
-  .button2 #water2_button:disabled {
-    cursor: auto;
-  }
-  
-  .button2 #water2_button:active {
-    border-width: 4px 0 0;
-    background: none;
-  }
+    color: #ecf0f1;
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+    background-color: blue;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 2px;
+    margin-left: 10px;
+    box-shadow: 0px 3px 0px aliceblue;
+    transition: all .1s;
+}
+#water2_button:active {
+    box-shadow: 0px 2px 0px greenyellow;
+    position: relative;
+    top: 2px;
+}
 
 /* CUSTOMER3 */
 
@@ -807,147 +580,48 @@ span{
 .button3{
     margin-top: 35px;
     margin-left: 20px;
-}
-.button3 #label_electrical3_button{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    font-weight: 100;
     color: rgb(0, 0, 0);
 }
-
 
 .button3 #electrical3_button {
-    appearance: button;
-    background-color: #1899D6;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: inline-block;
-    font-family: din-round,sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: .8px;
-    line-height: 20px;
-    margin: 0;
-    outline: none;
-    overflow: visible;
-    padding: 9px 12px;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transform: translateZ(0);
-    transition: filter .2s;
-    user-select: none;
-    -webkit-user-select: none;
-    vertical-align: middle;
-    white-space: nowrap;
-    width: 25%;
-  }
-  
-  .button3 #electrical3_button:after {
-    background-clip: padding-box;
-    background-color: #1CB0F6;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    bottom: -4px;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-  }
-  
-  .button3 #electrical3_button:main,
-  .button3 #electrical3_button:focus {
-    user-select: auto;
-  }
-  
-  .button3 #electrical3_button:hover:not(:disabled) {
-    filter: brightness(1.1);
-    -webkit-filter: brightness(1.1);
-  }
-  
-  .button3 #electrical3_button:disabled {
-    cursor: auto;
-  }
-  
-  .button3 #electrical3_button:active {
-    border-width: 4px 0 0;
-    background: none;
-  }
-
-.button3 #label_water3_button{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: #ecf0f1;
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+    background-color: blue;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 2px;
     margin-left: 10px;
+    margin-right: 15px;
+    box-shadow: 0px 3px 0px aliceblue;
+    transition: all .1s;
+}
+#electrical3_button:active {
+    box-shadow: 0px 2px 0px greenyellow;
+    position: relative;
+    top: 2px;
 }
 
+
 .button3 #water3_button {
-    appearance: button;
-    background-color: #1899D6;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: inline-block;
-    font-family: din-round,sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: .8px;
-    line-height: 20px;
-    margin: 0;
-    outline: none;
-    overflow: visible;
-    padding: 9px 12px;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transform: translateZ(0);
-    transition: filter .2s;
-    user-select: none;
-    -webkit-user-select: none;
-    vertical-align: middle;
-    white-space: nowrap;
-    width: 25%;
-  }
-  
-  .button3 #water3_button:after {
-    background-clip: padding-box;
-    background-color: #1CB0F6;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    bottom: -4px;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-  }
-  
-  .button3 #water3_button:main,
-  .button3 #water3_button:focus {
-    user-select: auto;
-  }
-  
-  .button3 #water3_button:hover:not(:disabled) {
-    filter: brightness(1.1);
-    -webkit-filter: brightness(1.1);
-  }
-  
-  .button3 #water3_button:disabled {
-    cursor: auto;
-  }
-  
-  .button3 #water3_button:active {
-    border-width: 4px 0 0;
-    background: none;
-  }
+    color: #ecf0f1;
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+    background-color: blue;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 2px;
+    margin-left: 10px;
+    box-shadow: 0px 3px 0px aliceblue;
+    transition: all .1s;
+}
+#water3_button:active {
+    box-shadow: 0px 2px 0px greenyellow;
+    position: relative;
+    top: 2px;
+}
